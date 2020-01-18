@@ -1,6 +1,6 @@
 Name:           perl-B-Keywords
 Version:        1.13
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Lists of reserved barewords and symbol names
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -49,6 +49,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.13-2
+- Mass rebuild 2013-12-27
+
 * Sat Apr  6 2013 Paul Howarth <paul@city-fan.org> - 1.13-1
 - Update to 1.13
   - Removed diag before each big t/11keywords.t loop
